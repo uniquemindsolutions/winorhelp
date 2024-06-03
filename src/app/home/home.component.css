@@ -1,0 +1,45 @@
+.container{
+    background-color: purple;
+    color: white;
+    border-radius: 15px;
+}
+
+.container2{
+    color: white;
+}
+
+.btn1{
+    color: purple;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.btn2{
+    color: purple;
+    background-color: white;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.btn3{
+    color: purple;
+    background-color: white;
+    border-radius: 10px;
+    padding: 9px;
+}
+
+.btn4{
+    color: purple;
+    background-color: white;
+    border-radius: 10px;
+    padding: 11px;
+}
+
+.btn-last{
+    color: purple;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+   
+}
