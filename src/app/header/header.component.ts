@@ -19,4 +19,17 @@ export class HeaderComponent {
 //     const offset = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
 //     this.isFixed = offset > 100; 
 //   }
+
+constructor() { 
+  
+}
+
+loginheader:boolean=true;
+  ngOnInit() {
+    alert(localStorage.getItem('loginsession'));
+    if(localStorage.getItem('loginsession')=="true"){
+     this.loginheader=false;
+    }
+}
+
 }
